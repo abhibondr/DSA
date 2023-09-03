@@ -1,2 +1,2 @@
 # DSA
-Daily Three DSA Questions
+Daily Three JS & DSA  Questions
