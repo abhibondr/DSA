@@ -13,3 +13,10 @@ function shuffleArr(arr) {
 }
 
 console.log(shuffleArr([1, 2, 3, 4, 5, 6]));
+
+//cocat two arrays
+function concatArr(arr1, arr2) {
+  return [...new Set(arr1.concat(arr2))];
+}
+
+console.log(concatArr([1, 2, 3], [2, 3, 4, 5]));
