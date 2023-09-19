@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown of Country & States</title>
+    <link rel="shortcut icon" href="location.png" type="image/x-icon" />
+  </head>
+  <body>
+    <label for="country">Select Country:</label>
+    <select id="country" onchange="handleStateChange()">
+      <option value="">--select country--</option>
+    </select>
+    <br />
+    <label for="state">Select States:</label>
+    <select id="state">
+      <option value="">--select state--</option>
+    </select>
+
+    <script src="Dropdown.js"></script>
+  </body>
+</html>
